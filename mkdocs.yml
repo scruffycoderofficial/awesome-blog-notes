@@ -1,0 +1,26 @@
+site_name: 'Awesome Booking Service'
+nav:
+    - Introduction: getting_started.md
+theme:
+  name: material
+  highlightjs: true
+  hljs_languages:
+      - yaml
+      - django
+
+  feature:
+    tabs: true
+  palette:
+    scheme: default
+    primary: green
+    accent: indigo
+  font:
+    text: Karla
+    code: Roboto Mono
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
