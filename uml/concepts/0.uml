@@ -1,0 +1,10 @@
+@startuml
+skinparam rectangle {
+    roundCorner<<BusinessConcept>> 25
+}
+
+rectangle "Concept Model" <<BusinessConcept>> {
+rectangle "Decorator Model Service" <<DomainConcept>> as ex1
+rectangle "Awesome Booking Service"
+}
+@enduml

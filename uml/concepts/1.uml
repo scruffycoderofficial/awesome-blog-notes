@@ -1,0 +1,9 @@
+@startuml
+artifact AwesomeBookingService {
+  folder BookingService
+}
+artifact ConcreteService {
+  folder ConcreteBookingService
+}
+AwesomeBookingService --(0 ConcreteService
+@enduml

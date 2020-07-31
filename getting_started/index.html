@@ -1,0 +1,523 @@
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.5.0">
+    
+    
+      
+        <title>Introduction - Awesome Booking Service</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.b5d04df8.min.css">
+      
+        <link rel="stylesheet" href="../assets/stylesheets/palette.9ab2c1f8.min.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#4caf50">
+      
+    
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karla:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Karla",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#getting-started" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href=".." title="Awesome Booking Service" class="md-header-nav__button md-logo" aria-label="Awesome Booking Service">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            Awesome Booking Service
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              Introduction
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+        
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Awesome Booking Service" class="md-nav__button md-logo" aria-label="Awesome Booking Service">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    Awesome Booking Service
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Introduction
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 9h14V7H3v2m0 4h14v-2H3v2m0 4h14v-2H3v2m16 0h2v-2h-2v2m0-10v2h2V7h-2m0 6h2v-2h-2v2z"/></svg>
+        </span>
+      </label>
+    
+    <a href="./" title="Introduction" class="md-nav__link md-nav__link--active">
+      Introduction
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#architectural-review" class="md-nav__link">
+    Architectural Review
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#test-cases" class="md-nav__link">
+    Test Cases
+  </a>
+  
+    <nav class="md-nav" aria-label="Test Cases">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#phpspec-coverage" class="md-nav__link">
+    PHPSpec Coverage
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unit-testing-coverage" class="md-nav__link">
+    Unit Testing Coverage
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#solution-design" class="md-nav__link">
+    Solution Design
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#development-pipeline-as-a-process-task" class="md-nav__link">
+    Development Pipeline as a Process Task
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#architectural-review" class="md-nav__link">
+    Architectural Review
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#test-cases" class="md-nav__link">
+    Test Cases
+  </a>
+  
+    <nav class="md-nav" aria-label="Test Cases">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#phpspec-coverage" class="md-nav__link">
+    PHPSpec Coverage
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unit-testing-coverage" class="md-nav__link">
+    Unit Testing Coverage
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#solution-design" class="md-nav__link">
+    Solution Design
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#development-pipeline-as-a-process-task" class="md-nav__link">
+    Development Pipeline as a Process Task
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  
+                
+                
+                <h1 id="getting-started">Getting Started<a class="headerlink" href="#getting-started" title="Permanent link">&para;</a></h1>
+<p><strong>Awesome Booking Service</strong> started as a small <em>endeavor</em>, that sought 
+to demonstrate:</p>
+<ul>
+<li>how one write <em>specs</em> for <em>Concrete Classes</em></li>
+<li><em>verify</em> that implementation can actually <strong>fulfil</strong> business needs</li>
+</ul>
+<div class="admonition info">
+<p class="admonition-title">Code Repository</p>
+<p>Source code associated with this Chapter can be found at <a href="https://github.com/ahmednafies/sanic_camelcase_middleware">github</a>.</p>
+</div>
+<p>The <em>main</em> objective was to document a process in a manner that was already 
+demonstrated(see DesignPatternsPHP).</p>
+<hr />
+<p><code>luyandasiko in desktop-app $ mkdir awesome-works</code></p>
+<hr />
+<p>At this point we have just configured our <strong>workspace</strong> from which 
+we will work from and below is a modular view of our <em>approach</em>.</p>
+<p><img alt="My large image" src="../img/1.png" /></p>
+<div class="admonition warning">
+<p class="admonition-title">Architectural Smell</p>
+<p><code>BookingService</code> suggests that <code>AccommodationBookingService</code> can optionally 
+depend on it.</p>
+</div>
+<p>It is important, in Agile, to timeously revisit your <em>business model</em> if 
+it is improving.</p>
+<p><img alt="My large image" src="../uml/concepts/0.png" /></p>
+<h2 id="architectural-review">Architectural Review<a class="headerlink" href="#architectural-review" title="Permanent link">&para;</a></h2>
+<p>The ability to build a model that you believe works than what actually 
+does is one thing.</p>
+<p><img alt="My large image" src="../uml/concepts/3.png" /></p>
+<p>There seems to be a <strong>hard dependency</strong> in our code-base no matter we think 
+our <strong>Code Quality</strong> is <em>Flexible</em>. The <strong>Decorator Pattern</strong> allows for this 
+already.</p>
+<h2 id="test-cases">Test Cases<a class="headerlink" href="#test-cases" title="Permanent link">&para;</a></h2>
+<p>As just <em>proof</em> with no proper business value messure <em>bookable</em> <code>item</code>, 
+lets <code>book</code> it.</p>
+<h3 id="phpspec-coverage">PHPSpec Coverage<a class="headerlink" href="#phpspec-coverage" title="Permanent link">&para;</a></h3>
+<div class="admonition danger">
+<p class="admonition-title">What is PHPSpec?</p>
+<p><code>PHPSPEC</code> ....</p>
+</div>
+<p>It is important, in Agile, to timeously revisit your <em>business model</em>, to check if 
+it is improving or not.</p>
+<div class="codehilite"><pre><span></span><code>luyandasiko in awesome-booking-service -&gt; feature/automated_acceptance_test_integration <span class="o">[</span>?$<span class="o">]</span>
+$ vendor/bin/phpspec run
+
+      DigitalClosuxe<span class="se">\A</span>wesome<span class="se">\S</span>ervice<span class="se">\B</span>ookingService<span class="se">\A</span>ccommodation<span class="se">\L</span>ine<span class="se">\A</span>dditionalBed
+
+  <span class="m">24</span>  ✔ is initializable <span class="o">(</span>79ms<span class="o">)</span>
+  <span class="m">29</span>  ✔ is a booking service
+  <span class="m">34</span>  ✔ has an accumulated price
+  <span class="m">39</span>  ✔ has extra bed description
+
+      DigitalClosuxe<span class="se">\A</span>wesome<span class="se">\S</span>ervice<span class="se">\B</span>ookingService<span class="se">\A</span>ccommodation<span class="se">\L</span>ine<span class="se">\H</span>otspotWifi
+
+  <span class="m">24</span>  ✔ is initializable
+  <span class="m">29</span>  ✔ is a booking service
+  <span class="m">34</span>  ✔ has an accumulated price
+  <span class="m">39</span>  ✔ has wifi description
+
+      DigitalClosuxe<span class="se">\A</span>wesome<span class="se">\S</span>ervice<span class="se">\B</span>ookingService<span class="se">\T</span>ype<span class="se">\A</span>ccommodationBooking
+
+  <span class="m">11</span>  ✔ is initializable
+  <span class="m">16</span>  ✔ is a booking service <span class="nb">type</span>
+  <span class="m">21</span>  ✔ has a standard price
+  <span class="m">26</span>  ✔ has description
+
+
+<span class="m">3</span> specs
+<span class="m">12</span> examples <span class="o">(</span><span class="m">12</span> passed<span class="o">)</span>
+88ms
+</code></pre></div>
+
+
+<h3 id="unit-testing-coverage">Unit Testing Coverage<a class="headerlink" href="#unit-testing-coverage" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span><code>luyandasiko in awesome-booking-service -&gt; feature/automated_acceptance_test_integration <span class="o">[</span>?$<span class="o">]</span>
+$ vendor/bin/phpunit
+PHPUnit <span class="m">9</span>.2.6 by Sebastian Bergmann and contributors.
+
+Runtime:       PHP <span class="m">7</span>.4.8
+Configuration: /Users/luyandasiko/awesome-works/awesome-booking-service/phpunit.xml
+
+.......                                                             <span class="m">7</span> / <span class="m">7</span> <span class="o">(</span><span class="m">100</span>%<span class="o">)</span>
+
+Time: <span class="m">00</span>:00.048, Memory: <span class="m">6</span>.00 MB
+
+OK <span class="o">(</span><span class="m">7</span> tests, <span class="m">20</span> assertions<span class="o">)</span>
+</code></pre></div>
+
+
+<div class="admonition alert">
+<p class="admonition-title">Look out for Gherkin, it is a powerful <em>language</em>?</p>
+</div>
+<div class="codehilite"><pre><span></span><code><span class="nf">luyandasiko in awesome-booking-service -&gt; feature/automated_acceptance_test_integration [?$]</span>
+<span class="nf">$ vendor/bin/behat</span>
+<span class="k">Feature:</span><span class="nf"> Standard Price Accommodation booking</span>
+
+<span class="nf">  As a Software Engineer</span>
+<span class="nf">  I want to ensure that the Booking Service calculates prices</span>
+<span class="nf">  So that I can verify the correctness of my solution</span>
+
+<span class="nf">  </span><span class="k">Scenario:</span><span class="nf"> Calculate Standard Price booking                                                      # features/bootstrap/booking_services/accommodation_bookings_service.feature:7</span>
+<span class="k">    Given </span><span class="nf">I have a &quot;</span><span class="s">DigitalClosuxe\Awesome\Service\BookingService\BookingService</span><span class="nf">&quot; booking Service # FeatureContext::iHaveABookingService()</span>
+<span class="nf">    </span><span class="k">And </span><span class="nf">I check the Booking Service price                                                         # FeatureContext::iCheckTheBookingServicePrice()</span>
+<span class="nf">    </span><span class="k">Then </span><span class="nf">the Booking Price should equal &quot;</span><span class="s">40</span><span class="nf">&quot;                                                      # FeatureContext::theBookingPriceShouldEqual()</span>
+
+<span class="nf">  </span><span class="k">Scenario:</span><span class="nf"> Calculate Standard Price booking with Hotspot Wifi                                    # features/bootstrap/booking_services/accommodation_bookings_service.feature:12</span>
+<span class="k">    Given </span><span class="nf">I have a &quot;</span><span class="s">DigitalClosuxe\Awesome\Service\BookingService\BookingService</span><span class="nf">&quot; booking Service # FeatureContext::iHaveABookingService()</span>
+<span class="nf">    </span><span class="k">And </span><span class="nf">I add Wifi Hotspot as an extra to my booking                                              # FeatureContext::iAddWifiHotspotAsAnExtraToMyBooking()</span>
+<span class="nf">    </span><span class="k">Then </span><span class="nf">the Booking Price should equal &quot;</span><span class="s">42</span><span class="nf">&quot;                                                      # FeatureContext::theBookingPriceShouldEqual()</span>
+
+<span class="nf">  </span><span class="k">Scenario:</span><span class="nf"> Calculate Standard Price booking with extra Bed                                       # features/bootstrap/booking_services/accommodation_bookings_service.feature:17</span>
+<span class="k">    Given </span><span class="nf">I have a &quot;</span><span class="s">DigitalClosuxe\Awesome\Service\BookingService\BookingService</span><span class="nf">&quot; booking Service # FeatureContext::iHaveABookingService()</span>
+<span class="nf">    </span><span class="k">And </span><span class="nf">I add an extra Bed as an extra to my booking                                              # FeatureContext::iAddAnExtraBedAsAnExtraToMyBooking()</span>
+<span class="nf">    </span><span class="k">Then </span><span class="nf">the Booking Price should equal &quot;</span><span class="s">70</span><span class="nf">&quot;                                                      # FeatureContext::theBookingPriceShouldEqual()</span>
+
+<span class="nf">  </span><span class="k">Scenario:</span><span class="nf"> Calculate Standard Price booking with Hotspot Wifi and extra Bed                      # features/bootstrap/booking_services/accommodation_bookings_service.feature:22</span>
+<span class="k">    Given </span><span class="nf">I have a &quot;</span><span class="s">DigitalClosuxe\Awesome\Service\BookingService\BookingService</span><span class="nf">&quot; booking Service # FeatureContext::iHaveABookingService()</span>
+<span class="nf">    </span><span class="k">And </span><span class="nf">I add Wifi Hotspot and a Bed as an extra to my booking                                    # FeatureContext::iAddWifiHotspotAndABedAsAnExtraToMyBooking()</span>
+<span class="nf">    </span><span class="k">Then </span><span class="nf">the Booking Price should equal &quot;</span><span class="s">72</span><span class="nf">&quot;                                                      # FeatureContext::theBookingPriceShouldEqual()</span>
+
+<span class="s">4</span><span class="nf"> scenarios (</span><span class="s">4</span><span class="nf"> passed)</span>
+<span class="s">12</span><span class="nf"> steps (</span><span class="s">12</span><span class="nf"> passed)</span>
+<span class="s">0</span><span class="nf">m</span><span class="s">0.10</span><span class="nf">s (</span><span class="s">9.75</span><span class="nf">Mb)</span>
+</code></pre></div>
+
+
+<h3 id="solution-design">Solution Design<a class="headerlink" href="#solution-design" title="Permanent link">&para;</a></h3>
+<p>It turns out that, if we <code>spec</code> an implementation we afford ourselves 
+an opportunity to <em>refinement</em>. Let us imagine the class implementation 
+for a typyical <code>AccommodationBookingService</code></p>
+<h2 id="development-pipeline-as-a-process-task">Development Pipeline as a <strong>Process Task</strong><a class="headerlink" href="#development-pipeline-as-a-process-task" title="Permanent link">&para;</a></h2>
+<p>Each <strong>Software Engineer</strong> should be able to create a <strong>Request for Proposal</strong> 
+Report Document for <strong>Sprint Planning Review</strong>.</p>
+<p><img alt="My large image" src="../uml/concepts/2.png" /></p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/vendor.92ffa368.min.js"></script>
+      <script src="../assets/javascripts/bundle.5123e3d4.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
+      
+      <script>
+        app = initialize({
+          base: "..",
+          features: [],
+          search: Object.assign({
+            worker: "../assets/javascripts/worker/search.a68abb33.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>
